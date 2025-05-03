@@ -10,7 +10,14 @@ const nextConfig = {
                 destination: '/api/avatar/:path*',
             },
         ];
-    }
+    },
+    images: {
+        remotePatterns: [
+            {
+                hostname: 'cryptopunks.app',
+            },
+        ],
+    },
 };
 
 module.exports = nextConfig
