@@ -4,7 +4,6 @@ import { type NextRequest } from 'next/server'
 import { ImageResponse } from 'next/og'
 
 
-export const runtime = 'edge' // 'nodejs' (default) | 'edge'
 
 export async function GET(request: NextRequest,{ params }: { params: { string: string } }) {
 
